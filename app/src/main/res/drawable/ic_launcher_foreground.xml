@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simplified single-color version of the website's circular NextBench mark. -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,24 A30,30 0,1 1,33,75"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="7" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M29,69 L33,76 L40,72"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="7" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M40,64 L49,43 L58,61 L68,48"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="8" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M64,43 L71,47 L69,55"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="7" />
+</vector>

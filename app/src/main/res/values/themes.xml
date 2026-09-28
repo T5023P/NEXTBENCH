@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme — windowBackground matches surfaceBase so the cold-start frame
+         is never a jarring white flash on dark-mode devices. -->
+    <style name="Theme.NextBench" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+
+    <!-- Splash theme: shown by the OS before setContent() runs. Replaced immediately
+         by NbTheme once Compose is ready, so no custom drawable is needed. -->
+    <style name="Theme.NextBench.Splash" parent="Theme.NextBench">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

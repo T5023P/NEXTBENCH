@@ -1,0 +1,16 @@
+# Android Studio normally writes sdk.dir automatically.
+sdk.dir=/path/to/Android/sdk
+
+# Client-safe upload identifiers. Never add Cloudinary API secrets here.
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_UPLOAD_PRESET=
+GIPHY_API_KEY=
+# Optional override. The normal value is read from app/google-services.json.
+GOOGLE_WEB_CLIENT_ID=
+
+# Release signing. Keep the keystore and these values out of git.
+# RELEASE_STORE_FILE can be an absolute path or a path relative to the repository root.
+RELEASE_STORE_FILE=
+RELEASE_STORE_PASSWORD=
+RELEASE_KEY_ALIAS=
+RELEASE_KEY_PASSWORD=

@@ -1,0 +1,37 @@
+# Gradle / Android
+.gradle/
+build/
+*/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+node_modules/
+functions-android/lib/
+firebase-debug.log
+firebase-debug.*.log
+
+# Secrets — never commit
+google-services.json
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+keystore.properties
+
+# Kotlin
+.kotlin/
+
+# IDE compile output
+bin/
+
+# Local agent-tool state
+.freebuff/
+
+# Firebase env drop (the Android app needs google-services.json instead; the
+# web config belongs in the website repo's .env)
+env.firebase

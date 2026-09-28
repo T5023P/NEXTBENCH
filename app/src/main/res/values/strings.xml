@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NextBench</string>
+    <string name="shortcut_messages_short">Chats</string>
+    <string name="shortcut_messages_long">Open NextBench chats</string>
+    <string name="shortcut_search_short">Search</string>
+    <string name="shortcut_search_long">Search NextBench</string>
+    <string name="shortcut_create_short">Create</string>
+    <string name="shortcut_create_long">Create a NextBench post</string>
+</resources>

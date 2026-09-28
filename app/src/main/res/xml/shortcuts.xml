@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="messages"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_messages"
+        android:shortcutShortLabel="@string/shortcut_messages_short"
+        android:shortcutLongLabel="@string/shortcut_messages_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nextbench.app"
+            android:targetClass="com.nextbench.app.MainActivity"
+            android:data="nextbench://messages" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_search"
+        android:shortcutShortLabel="@string/shortcut_search_short"
+        android:shortcutLongLabel="@string/shortcut_search_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nextbench.app"
+            android:targetClass="com.nextbench.app.MainActivity"
+            android:data="nextbench://search" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="create"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_create"
+        android:shortcutShortLabel="@string/shortcut_create_short"
+        android:shortcutLongLabel="@string/shortcut_create_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nextbench.app"
+            android:targetClass="com.nextbench.app.MainActivity"
+            android:data="nextbench://create" />
+    </shortcut>
+</shortcuts>
